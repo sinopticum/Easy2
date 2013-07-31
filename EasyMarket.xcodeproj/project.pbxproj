@@ -21,6 +21,9 @@
 		79E7114017A9263000BB8BC3 /* EasyMarket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E7113E17A9263000BB8BC3 /* EasyMarket.xcdatamodeld */; };
 		79E7114317A9263000BB8BC3 /* RSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7114217A9263000BB8BC3 /* RSMasterViewController.m */; };
 		79E7114617A9263000BB8BC3 /* RSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7114517A9263000BB8BC3 /* RSDetailViewController.m */; };
+		79E7115417A9275100BB8BC3 /* ListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7115317A9275100BB8BC3 /* ListManager.m */; };
+		79E7116017A928B600BB8BC3 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7115F17A928B600BB8BC3 /* Item.m */; };
+		79E7116317A928DD00BB8BC3 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7116217A928DD00BB8BC3 /* List.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,12 @@
 		79E7114217A9263000BB8BC3 /* RSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSMasterViewController.m; sourceTree = "<group>"; };
 		79E7114417A9263000BB8BC3 /* RSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDetailViewController.h; sourceTree = "<group>"; };
 		79E7114517A9263000BB8BC3 /* RSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDetailViewController.m; sourceTree = "<group>"; };
+		79E7115217A9275100BB8BC3 /* ListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManager.h; sourceTree = "<group>"; };
+		79E7115317A9275100BB8BC3 /* ListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListManager.m; sourceTree = "<group>"; };
+		79E7115E17A928B600BB8BC3 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../Item.h; sourceTree = "<group>"; };
+		79E7115F17A928B600BB8BC3 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = ../Item.m; sourceTree = "<group>"; };
+		79E7116117A928DD00BB8BC3 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		79E7116217A928DD00BB8BC3 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +109,12 @@
 				79E7114417A9263000BB8BC3 /* RSDetailViewController.h */,
 				79E7114517A9263000BB8BC3 /* RSDetailViewController.m */,
 				79E7113E17A9263000BB8BC3 /* EasyMarket.xcdatamodeld */,
+				79E7115217A9275100BB8BC3 /* ListManager.h */,
+				79E7115317A9275100BB8BC3 /* ListManager.m */,
+				79E7116117A928DD00BB8BC3 /* List.h */,
+				79E7116217A928DD00BB8BC3 /* List.m */,
+				79E7115E17A928B600BB8BC3 /* Item.h */,
+				79E7115F17A928B600BB8BC3 /* Item.m */,
 				79E7112A17A9263000BB8BC3 /* Supporting Files */,
 			);
 			path = EasyMarket;
@@ -191,6 +206,9 @@
 				79E7114017A9263000BB8BC3 /* EasyMarket.xcdatamodeld in Sources */,
 				79E7114317A9263000BB8BC3 /* RSMasterViewController.m in Sources */,
 				79E7114617A9263000BB8BC3 /* RSDetailViewController.m in Sources */,
+				79E7115417A9275100BB8BC3 /* ListManager.m in Sources */,
+				79E7116017A928B600BB8BC3 /* Item.m in Sources */,
+				79E7116317A928DD00BB8BC3 /* List.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
